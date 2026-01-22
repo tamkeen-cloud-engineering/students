@@ -7,9 +7,10 @@
 The objectives of this exercise is for you to learn:
 
 - the difference between forking and cloning a repository,
-- stage, commit, and push your changes,
-- create a pull request to merge your changes to the upstream repository, and
-- how to deal with merge conflicts.
+- stage, commit, and push your changes to your `origin` remote repository,
+- create a pull request to merge your changes to the upstream repository,
+- how to fetch updates from the `upstream` remote repository, and
+- how to resolve merge conflicts.
 
 ## Fork the repository
 
