@@ -100,7 +100,7 @@ In VS Code, we can click on the four options:
 
 You must delete the `<<<<<<<`, `=======`, and `>>>>>>>` lines before saving.
 
-![merge conflicts](./images/conflicts.png)
+![merge conflicts](./images/conflict.png)
 
 ```txt
 <<<<<<< HEAD
