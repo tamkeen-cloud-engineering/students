@@ -1,6 +1,6 @@
 # Students
 
-![screenshot](./assets/screenshot.png)
+![screenshot](./images/screenshot.png)
 
 ## Objectives
 
@@ -13,7 +13,9 @@ The objectives of this exercise is for you to learn:
 
 ## Fork and clone the repository
 
-Fork this repository on GitHub. This will create a copy on your GitHub account that you can edit.
+![fork](./images/fork.png)
+
+Fork this repository on GitHub. This will create a copy on your GitHub account that you can edit. Make sure to uncheck "Copy `main` branch only" so that you fork all the branches. We want to also get the `students` branch from this repository.
 
 Now, clone your own copy to your local machine to make changes.
 
@@ -51,4 +53,4 @@ Create a pull request on GitHub to merge your changes to the upstream repository
 
 If you have an image hosted on the web, you can add it to your profile card. Otherwise a default image will be used. You can also generate your own avatar with [DiceBear](https://www.dicebear.com/).
 
-![example](./assets/example.png)
+![example](./images/example.png)
