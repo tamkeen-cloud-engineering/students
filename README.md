@@ -15,7 +15,7 @@ The objectives of this exercise is for you to learn:
 
 ![fork](./images/fork.png)
 
-Fork this repository on GitHub. This will create a copy on your GitHub account that you can edit. 
+Fork this repository on GitHub. This will create a copy on your GitHub account that you can edit.
 
 Make sure to uncheck "Copy `main` branch only" so that you fork all the branches. We want to also get the `students` branch from this repository.
 
@@ -32,10 +32,10 @@ git clone https://github.com/tamkeen-cloud-engineering/students.git
 Edit the `students.json` file in the `data` folder and add your name and details.
 
 ```json
-{ 
+{
   "name": "Your Name Here",
   "cohort": 2,
-  "photo": "https://your-photo-here.com",
+  "photo": "https://your-photo-here.com"
 }
 ```
 
@@ -91,6 +91,14 @@ git pull upstream students --rebase
 
 At this point, you may see merge conflicts. Go to the `students.json` file to fix those conflicts. A big part of collaborating with others in a team is resolving merge conflicts. This happens when one or more people are editing the same file. In this case, we will all be editing the `students.json` file.
 
+```txt
+<<<<<<< HEAD
+This is the code currently on your local branch (e.g., main).
+=======
+This is the new code coming in from the other branch (e.g., students).
+>>>>>>> students
+```
+
 In VS Code, we can click on the four options:
 
 - `Accept Current Change` - this will keep your changes only
@@ -101,11 +109,3 @@ In VS Code, we can click on the four options:
 You must delete the `<<<<<<<`, `=======`, and `>>>>>>>` lines before saving.
 
 ![merge conflicts](./images/conflict.png)
-
-```txt
-<<<<<<< HEAD
-This is the code currently on your local branch (e.g., main).
-=======
-This is the new code coming in from the other branch (e.g., students).
->>>>>>> students
-```
