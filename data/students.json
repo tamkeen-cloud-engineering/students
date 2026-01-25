@@ -8,5 +8,10 @@
     "name": "Husain Saleem",
     "cohort": 2,
     "photo": "https://api.dicebear.com/9.x/avataaars-neutral/svg?seed=Husain+Saleem"
+  },
+  {
+      "name": "Marwa Adel",
+      "cohort": 5,
+      "photo": "https://api.dicebear.com/9.x/avataaars-neutral/svg?seed=Marwa+Adel"
   }
 ]
