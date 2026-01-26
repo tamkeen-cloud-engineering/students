@@ -1,5 +1,6 @@
 [
   {
+HEAD
     "name": "Nasser Ahmed",
     "cohort": 2,
     "photo": "https://api.dicebear.com/9.x/avataaars-neutral/svg?seed=Nasser+Ahmed"
@@ -13,5 +14,10 @@
       "name": "Marwa Adel",
       "cohort": 5,
       "photo": "https://api.dicebear.com/9.x/avataaars-neutral/svg?seed=Marwa+Adel"
+
+    "name": "Sarah Rashed",
+    "cohort": 2,
+    "photo": "https://api.dicebear.com/9.x/avataaars-neutral/svg?seed=Sarah+Rashed"
+ 3e2a311 (Changes reflect student name in two places)
   }
 ]
